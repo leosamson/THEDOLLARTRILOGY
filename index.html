@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Dollars Trilogy - Blu-ray Collection</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ultra&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="home-page">
+
+    <video autoplay loop muted playsinline id="bg-video">
+        <source src="assets/videos/home_background.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <div id="particles-js"></div>
+
+    <div id="custom-cursor">
+        <img src="assets/images/spur.png" alt="cursor">
+    </div>
+
+    <main id="home-content" class="content-container">
+        <h1 id="main-title">
+            THE<br>
+            DOLLARS<br>
+            TRILOGY<br>
+            <span class="subtitle">BY SERGIO LEONE</span>
+        </h1>
+    </main>
+
+    <audio id="bg-music" loop>
+        <source src="assets/audio/main_theme.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <audio id="rattle-sound" preload="auto">
+        <source src="assets/audio/rattle.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js" defer></script>
+</body>
+</html>
